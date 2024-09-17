@@ -71,7 +71,8 @@ module Network.Wai.Handler.Warp.Internal (
   , http2server
   , withII
   , pReadMaker
-  ) where
+  , serveConnection
+) where
 
 import Network.Socket.BufferPool
 import System.TimeManager
